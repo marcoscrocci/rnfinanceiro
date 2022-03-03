@@ -27,3 +27,14 @@ npm install --save styled-components
 # with yarn
 yarn add styled-components
 
+- Rocketseat - Code Drop - Temas no Styled Components
+https://www.youtube.com/watch?v=ngVU74daJ8Y&t=8s
+
+- Adicionar o Types do Styled Components
+https://styled-components.com/
+# with npm
+npm install --save-dev @types/styled-components
+
+# with yarn
+yarn add @types/styled-components -D
+
