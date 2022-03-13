@@ -7,7 +7,7 @@ import {
 export const Container = styled.View`
     ${({ theme }) => css`
         flex: 1;
-        background-color: ${theme.colors.background};
+        background-color: ${theme.colors.backgroundColor};
         align-items: center;
         justify-content: center;
         padding: ${getStatusBarHeight() + 24}px 24px ${getBottomSpace() + 14}px;
