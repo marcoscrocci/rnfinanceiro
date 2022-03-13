@@ -4,7 +4,7 @@ import React from "react";
 //import { useColorScheme, Text } from 'react-native'
 import { Theme } from './src/templates/theme';
 
-import { Home } from "./src/screens/Home";
+import { Home } from "./src/pages/Home";
 //import themes from './src/themes';
 
 
@@ -14,10 +14,12 @@ export default function App() {
     //const theme = themes[colorScheme === 'dark' ? 'dark' : 'light'];
 
     return (
-        <Theme>
-            <Home />
+        <>
             <StatusBar style="auto" />
-        </Theme>
+            <Theme>
+                <Home />
+            </Theme>
+        </>
     );
 }
 
